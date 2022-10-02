@@ -1,0 +1,73 @@
+:root {
+    --primary: #04050c;
+    --light: #fff;
+    --grey: #efefef;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    color: var(--primary);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.bg-primary { background-color: var(--primary) !important;}
+
+#sidebar-container {
+    min-height: 100vh;
+}
+
+#sidebar-container .logo {
+    padding: .875rem 1.25rem;
+}
+
+#sidebar-container .menu {
+    width: 18rem;
+}
+
+#content {
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.grid-cols-1 {
+    grid-template-columns: repeat(1,minmax(0,1fr));
+}
+
+.grid {
+    display: grid;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.text-3x1 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.mx-2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}

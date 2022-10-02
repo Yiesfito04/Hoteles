@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hoteles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+    <link href="Estilos.css" rel="stylesheet">
+
+  </head>
+  <body style="overflow:scroll">
+    <div>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+             <img src="hotel.jpg" width="100" height="80">                   
+          </a>            
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="Vistas.html" class="nav-link active" aria-current="page">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a  href="Hoteles.html" class="nav-link">Hoteles</a>
+              </li>
+              <li class="nav-item">
+                <a  href="tipo de habitaciones.html" class="nav-link">Habitaciones</a>
+              </li>
+              <li class="nav-item">
+                <a  href="acomodaciones.html" class="nav-link">Acomodaciones</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+           <section class="py-4">
+              <div class="container">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row">
+                      <h6> Panel de Administración</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="py-4">
+              <div class="container">
+                <div class="card">
+                  <div class="card-body">
+                    <div>
+                      <nav class="navbar navbar-expand-lg bg-light">
+                        <div class="container-fluid">           
+                          <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a href="Vistas.html" class="nav-link active" aria-current="page">INICIO</a>
+                              </li>
+                              <li class="nav-item">
+                                <a  href="Hoteles.html" class="nav-link">Hoteles</a>
+                              </li>
+                              <li class="nav-item">
+                                <a  href="#" class="nav-link">Actualizar datos del hotel</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                    </div>
+                    <form >
+                      <h1>Hotel</h1>
+                      <div class="form-group" >
+                        <label for="nombre" class="control-label">Nombre</label>
+                        <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Nombre">
+                      </div>
+                      <br>
+                      <div class="form-group" >
+                        <label for="nit" class="control-label">Nit</label>
+                        <input type="text" class="form-control" id="nit" name="nit" placeholder="Nit">
+                      </div>
+                      <br>
+                      <div class="form-group" >
+                        <label for="dir" class="control-label">Dirección</label>
+                        <input type="text" class="form-control" id="dir" name="dir" placeholder="Dirección">
+                      </div>
+                      <br>
+                      <div class="form-group" >
+                        <label for="nhabitaciones" class="control-label">Número de Habitaciones</label>
+                        <input min="0" type="number" class="form-control" id="nhabitaciones" name="nhabitaciones" placeholder="Número de  Habitaciones">
+                      </div>
+                      <br>
+                      <div class="form-group" >
+                        <label for="Ciudad" class="control-label">Ciudad</label>
+                        <br>
+                        <select name="Ciudad" id="Ciudad">
+                          <option>Seleccione Ciudad</option>
+                          <option>Monteria</option>
+                          <option>Barranquilla</option>
+                          <option>Medellin</option>
+                          <option>Bogota</option>
+                        </select>
+                      </div>
+                      <br>
+                      <button type="cHotel" class="btn btn-link">Eliminar Hotel</button>
+                      <button type="cHotel" class="btn btn-primary">Actualizar Datos</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </section>
+            
+            
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
